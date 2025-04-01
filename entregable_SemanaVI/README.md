@@ -12,7 +12,8 @@ Para instalarlo usar:
 ## Reglas y configuración
 
 Prettier utiliza configuraciones predeterminadas, pero puedes personalizarlo al agregar una sección de prettier en la configuración del package.json:
-```json "prettier": {
+```json 
+"prettier": {
 "trailingComma": "es5",
 "tabWidth": 2,
 "semi": false,
