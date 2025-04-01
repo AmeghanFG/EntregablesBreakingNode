@@ -23,7 +23,7 @@ Prettier utiliza configuraciones predeterminadas, pero puedes personalizarlo al 
 ```json
 ```
 
-También mediante un archivo mediante archivos como `.prettierrc`, `prettier.config.js`. Algunas opciones comunes incluyen:
+También mediante archivos como `.prettierrc`, `prettier.config.js`. Algunas opciones comunes incluyen:
 
 - `semi`: Agregar o no punto y coma al final de las líneas (`true` o `false`)
 - `singleQuote`: Usar comillas simples (`true`) o dobles (`false`)
