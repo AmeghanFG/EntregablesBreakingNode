@@ -1,6 +1,6 @@
 // Código sin ordenar: const greet=(name)=>{return "Hola "+name;}
 
-// Ordenado con el comando npx prettier --write example.js
+// Ordenado con npm run format
 const greet = (name) => {
   return 'Hola ' + name
 }
