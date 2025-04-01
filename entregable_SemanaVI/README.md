@@ -20,6 +20,8 @@ Prettier utiliza configuraciones predeterminadas, pero puedes personalizarlo al 
 "singleQuote": true,
 "printWidth": 80
 } ```
+```json
+```
 
 También mediante un archivo mediante archivos como `.prettierrc`, `prettier.config.js`. Algunas opciones comunes incluyen:
 
