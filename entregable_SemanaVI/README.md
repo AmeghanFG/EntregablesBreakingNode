@@ -19,7 +19,7 @@ Prettier utiliza configuraciones predeterminadas, pero puedes personalizarlo al 
 "semi": false,
 "singleQuote": true,
 "printWidth": 80
-} ```
+} 
 ```json
 ```
 
