@@ -12,13 +12,13 @@ Para instalarlo usar:
 ## Reglas y configuración
 
 Prettier utiliza configuraciones predeterminadas, pero puedes personalizarlo al agregar una sección de prettier en la configuración del package.json:
-"prettier": {
+``````json ``` "prettier": {
 "trailingComma": "es5",
 "tabWidth": 2,
 "semi": false,
 "singleQuote": true,
 "printWidth": 80
-} 
+} ``````json ```
 
 También mediante un archivo mediante archivos como `.prettierrc`, `prettier.config.js`. Algunas opciones comunes incluyen:
 
@@ -30,16 +30,19 @@ También mediante un archivo mediante archivos como `.prettierrc`, `prettier.con
 ## ¿Cómo se usa?
 
 Ya que está instalado, puedes usar Prettier desde la línea de comandos para formatear un archivo en particular o todos en el proyecto:
-npx prettier --write archivo.js
+`npx prettier --write archivo.js`
 Puedes verificar si esta formateado correctamente con el sigueinte comando:
-npx prettier --check archivo.js
+`npx prettier --check archivo.js`
 
 Puedes agregar la sección scripts para facilitar el trabajo en el package.json
+``````json ```
 "scripts": {
 "format": "prettier --write .",
 "check-format": "prettier --check ."
 }
+``````json ```
+
 Ahora se ejecutará para hacer lo mismo que con "npx prettier --write archivo.js" y "npx prettier --check archivo.js"
-npm run format
-npm run check-format
+`npm run format`
+`npm run check-format`
 
